@@ -33,4 +33,4 @@ jobs:
           git pull --rebase origin main  # Fetch latest changes to avoid conflicts
           git add news.xml
           git commit -m "Update news.xml" || echo "No changes to commit"
-          git push
+          git push --force
